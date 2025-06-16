@@ -12,7 +12,7 @@ import io.cucumber.testng.CucumberOptions;
     publish = true,
     plugin = {"pretty",
               "html:target/cucumber-report.html",
-              "json:target/cucumber-reportJson",
+              "json:target/cucumber-report.json",
               "com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"}
 )
 public class Runner extends AbstractTestNGCucumberTests {
